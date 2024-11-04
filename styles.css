@@ -67,4 +67,12 @@ header h1 {
     width: 100%;
     height: auto;
     border-radius: 4px;
-   
+    max-width: 90%; /* Ensure the image fits within the card */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.image-card p {
+    margin-top: 1em;
+    font-size: 1em;
+    color: #444;
+}
