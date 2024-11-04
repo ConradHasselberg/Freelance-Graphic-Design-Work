@@ -74,7 +74,7 @@ header h1 {
 /* Add specific padding to the first two images */
 .image-card:nth-child(1) img,
 .image-card:nth-child(2) img {
-    padding-top: 20px; /* Adjust padding as needed */
+    padding-top: 100px; /* Adjust padding as needed */
 }
 
 .image-card p {
