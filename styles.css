@@ -52,14 +52,13 @@ header h1 {
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 1em;
+    text-align: center;
     transition: transform 0.2s ease-in-out;
 
-    /* Flexbox for vertical and horizontal centering */
+    /* Flexbox for centering */
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center vertically */
     align-items: center; /* Center horizontally */
-    height: 300px; /* Set a fixed height for the card */
 }
 
 .image-card:hover {
@@ -68,13 +67,4 @@ header h1 {
 
 .image-card img {
     width: auto; /* Let the width be auto */
-    height: auto; /* Let the height be auto */
-    max-width: 90%; /* Ensure the image fits within the card */
-    max-height: 80%; /* Ensure images don’t exceed the card height */
-}
-
-.image-card p {
-    margin-top: 1em;
-    font-size: 1em;
-    color: #444;
-}
+    height
