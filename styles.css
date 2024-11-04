@@ -46,7 +46,7 @@ header h1 {
 }
 
 .image-card {
-    background-color: #FF9999;
+    background-color: white;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -54,6 +54,9 @@ header h1 {
     text-align: center;
     padding: 1em;
     transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .image-card:hover {
@@ -64,10 +67,4 @@ header h1 {
     width: 100%;
     height: auto;
     border-radius: 4px;
-}
-
-.image-card p {
-    margin-top: 1em;
-    font-size: 1em;
-    color: #444;
-}
+   
