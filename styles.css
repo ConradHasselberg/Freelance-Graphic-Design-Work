@@ -70,7 +70,7 @@ header h1 {
 }
 
 .image-card:hover {
-    transform: scale(3.05);
+    transform: scale(1.30);
 }
 
 .image-card img {
