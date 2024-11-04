@@ -50,6 +50,10 @@ header h1 {
 }
 
 .image-card {
+    display: flex;                  /* Use Flexbox for layout */
+    flex-direction: column;         /* Stack items vertically */
+    justify-content: center;        /* Center content vertically */
+    align-items: center;            /* Center content horizontally */
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 8px;
