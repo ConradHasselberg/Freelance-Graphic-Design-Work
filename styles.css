@@ -12,12 +12,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 200px; /* Add top margin to push content down */
 }
 
 /* Header styling */
 header {
     text-align: center;
+    margin: 2em 0;
 }
 
 header h1 {
@@ -54,11 +54,9 @@ header h1 {
     padding: 1em;
     text-align: center;
     transition: transform 0.2s ease-in-out;
-
-    /* Flexbox for centering */
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center horizontally */
+    align-items: center;
 }
 
 .image-card:hover {
@@ -66,5 +64,20 @@ header h1 {
 }
 
 .image-card img {
-    width: auto; /* Let the width be auto */
-    height
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    max-width: 90%; /* Ensure the image fits within the card */
+}
+
+/* Add specific padding to the first two images */
+.image-card:nth-child(1) img,
+.image-card:nth-child(2) img {
+    padding-top: 20px; /* Adjust padding as needed */
+}
+
+.image-card p {
+    margin-top: 1em;
+    font-size: 1em;
+    color: #444;
+}
