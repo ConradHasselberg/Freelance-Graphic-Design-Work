@@ -77,5 +77,12 @@ header h1 {
 .image-card p {
     margin-top: 1em;
     font-size: 1em;
-    color: #444; /* Change this if you want the text inside the cards to also be white */
+    color: #444; /* Text color inside the cards */
+}
+
+/* Styling for the header image */
+.header-image {
+    height: 1em; /* Adjust to fit the text height */
+    vertical-align: middle; /* Align the image vertically with the text */
+    margin: 0 5px; /* Add some space between the text and the image */
 }
