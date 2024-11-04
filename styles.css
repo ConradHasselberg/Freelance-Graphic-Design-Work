@@ -43,7 +43,7 @@ header h1 {
     width: 80%;
     max-width: 1200px;
     margin: 2em 0;
-    background-color: #f0f0f0; /* Light gray background for the card section */
+    background-color: #bfc9ca; /* Light gray background for the card section */
     padding: 2em; /* Padding around the card section */
     border-radius: 8px; /* Rounded corners for the background */
 }
