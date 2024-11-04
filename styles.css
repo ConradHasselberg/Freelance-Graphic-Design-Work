@@ -82,7 +82,7 @@ header h1 {
 
 /* Styling for the header image */
 .header-image {
-    height: 20px; /* Adjust this value to change the height */
+    height: 25px; /* Adjust this value to change the height */
     width: auto; /* Maintain aspect ratio */
     vertical-align: middle; /* Align the image vertically with the text */
     margin: 0 5px; /* Add some space between the text and the image */
