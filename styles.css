@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     color: white; /* Change text color to white */
-    background-color: black; /* Change background color to black */
+    background-color: #090909; /* Change background color to black */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,7 +82,7 @@ header h1 {
 
 /* Styling for the header image */
 .header-image {
-    height: 50px; /* Adjust this value to change the height */
+    height: 20px; /* Adjust this value to change the height */
     width: auto; /* Maintain aspect ratio */
     vertical-align: middle; /* Align the image vertically with the text */
     margin: 0 5px; /* Add some space between the text and the image */
