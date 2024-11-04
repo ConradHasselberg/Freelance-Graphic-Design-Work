@@ -1,28 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>My Portfolio</title>
-</head>
-<body>
-    <header>
-        <h1>My <img src="path/to/your/image.png" alt="Graphic Design" class="header-image"> Portfolio</h1>
-    </header>
-    <div class="intro-text">
-        <p>These are some of the images I have created for clients as a freelance graphic design artist.</p>
-    </div>
-    <section class="portfolio">
-        <div class="image-card">
-            <img src="TungstenJunction2" alt="Design 1">
-        </div>
-        <div class="image-card">
-            <img src="TungstenJunction1" alt="Design 2">
-        </div>
-        <div class="image-card">
-            <img src="FrostedFlyer" alt="Design 3">
-        </div>
-    </section>
-</body>
-</html>
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white; /* Change text color to white */
+    background-color: black; /* Change background color to black */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px; /* Add top margin to push content down */
+}
+
+/* Header styling */
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: white; /* Ensure header text is white */
+    margin-bottom: 0.5em;
+}
+
+.intro-text {
+    font-size: 1.2em;
+    color: white; /* Change intro text color to white */
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 1em;
+    line-height: 1.6em;
+}
+
+/* Portfolio section styling */
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2em;
+    width: 80%;
+    max-width: 1200px;
+    margin: 2em 0;
+    background-color: #f0f0f0; /* Light gray background for the card section */
+    padding: 2em; /* Padding around the card section */
+    border-radius: 8px; /* Rounded corners for the background */
+}
+
+.image-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+
+    /* Flexbox for centering */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+}
+
+.image-card:hover {
+    transform: scale(1.05);
+}
+
+.image-card img {
+    max-width: 100%; /* Ensure the image fits within the card */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.image-card p {
+    margin-top: 1em;
+    font-size: 1em;
+    color: #444; /* Change this if you want the text inside the cards to also be white */
+}
