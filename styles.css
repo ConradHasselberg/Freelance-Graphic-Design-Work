@@ -46,7 +46,7 @@ header h1 {
 }
 
 .image-card {
-    background-color: gray;
+    background-color: #FF9999;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
