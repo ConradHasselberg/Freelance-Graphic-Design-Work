@@ -1,1 +1,1 @@
-These are some of the images I havbe created for clients as a freelance graphic design artist.
+These are some of the images I have created for clients as a freelance graphic design artist.
